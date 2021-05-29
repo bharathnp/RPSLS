@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Rock Paper Scissors LS</title>
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <script
+            src="https://kit.fontawesome.com/d364971e6c.js"
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="./JS/main.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a id="rules">Rules</a>
+        </nav>
+
+        <div id="myModal" class="modal none">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 style="text-align: center;">RPSLS Rules</h3>
+                <br />
+                <img src="./Images/rules.png" alt="rules" />
+                <ul class="rulesList">
+                    <li>Scissors cuts Paper</li>
+                    <li>Paper covers Rock</li>
+                    <li>Rock crushes Lizard</li>
+                    <li>Lizard poisons Spock</li>
+                    <li>Spock smashes Scissors</li>
+                    <li>Scissors decapitates Lizard</li>
+                    <li>Lizard eats Paper</li>
+                    <li>Paper disproves Spock</li>
+                    <li>Spock vaporizes Rock</li>
+                    <li>Rock crushes Scissors</li>
+                </ul>
+                <br />
+                
+            </div>
+        </div>
+
+        <main>
+            <h1>Rock Paper Scissors</h1>
+            <h1>Lizard Spock</h1>
+
+            <div id="game">
+                <h3 class="top" id="name">Name</h3>
+
+                <h3 class="top" id="computer">Computer</h3>
+
+                <div class="middle" id="gamer-hand"></div>
+                <button class="middle" id="go">GO</button>
+                <div class="middle" id="computer-hand"></div>
+                <h3 class="score" id="gamer-score"></h3>
+                <h3 class="score" id="computer-score"></h3>
+                <div class="show" id="msg"></div>
+            </div>
+
+            <section id="bottom">
+                <div>
+                    <button id="rock"><i class="far fa-hand-rock"></i></button>
+                    <button id="paper">
+                        <i class="far fa-hand-paper"></i>
+                    </button>
+                    <button id="scissors">
+                        <i class="far fa-hand-scissors"></i>
+                    </button>
+                    <button id="lizard">
+                        <i class="far fa-hand-lizard"></i>
+                    </button>
+                    <button id="spock">
+                        <i class="far fa-hand-spock"></i>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>
